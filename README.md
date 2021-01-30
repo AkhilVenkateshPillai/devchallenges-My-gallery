@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](/images/recording (2).gif)
+ ![screenshot](/images/recording(2).gif)
 
 This page was created for the fifth devchallenge, written purely in HTML/CSS.
 
