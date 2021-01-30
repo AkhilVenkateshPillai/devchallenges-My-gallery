@@ -103,8 +103,13 @@
 
 @media screen and (max-width:800px){
 
+    body{
+        width: 100%;
+    }
+
     .container-gallery{
-        width: 600px;
+        width: 100%;
+        margin: auto;
         max-width: 100%;
     }
  
@@ -131,17 +136,20 @@
 .profilepic{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
+    max-width: 100%;
 }
 
 .profilepic>div{
     text-align: center;
+    max-width: 100%;
 }
 
 .profilepic>div>img{
 
     width: 156px;
-    height: 156px;
+    height: auto;
     border-radius: 16px;
+    max-width: 100%;
 
 }
 
@@ -168,6 +176,7 @@
 .profileinfo{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr ;
+    max-width: 100%;
 }
 
 .profileinfo>.space{
@@ -175,6 +184,7 @@
    display: flex;
    justify-content: center;
    gap: 20px;
+   max-width: 100%;
 
 }
 
@@ -184,6 +194,7 @@
     height: 67px;
     background: #E5E5E5;
     border-radius: 12px;
+    max-width: 100%;
 }
 
 .profileinfo>.space>div>h1{
