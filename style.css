@@ -75,13 +75,14 @@
 
 .four{
     
-    width: 700px ;
-    height:299px;
+    grid-column: 1/span 11;
     border-radius: 2rem;
     max-width: 100%;
 }
 
 .container-holderZ{
+
+    grid-column: 1/span 11;
     display: grid;
     grid-template-columns: repeat(10,1fr);
    gap: 22px;
@@ -99,24 +100,31 @@
     max-width: 100%;
 }
 
-@media screen and (max-width:1000px){
+
+@media screen and (max-width:800px){
 
     .container-gallery{
         width: 600px;
         max-width: 100%;
     }
-
-    .three{
-        width: auto;
-        height: auto;
+ 
+    .container-holderAll{
+        gap: 8px;
     }
 
-    .four{
-        width: auto;
-        height: auto;
+    .container-top{
+        gap: 8px;
     }
-   
-}
+
+    .container-holderZ{
+        gap: 8px;
+    }
+    .container-bottom{
+        gap:8px;
+        margin-right: 8px;
+    }
+  
+  }
 
 /* ---------------------------------------header and footer content------------------------------------------ */
 
@@ -210,3 +218,5 @@ footer{
     line-height: 17px;
     color: #A9A9A9;
 }
+
+
